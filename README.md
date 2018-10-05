@@ -4,16 +4,10 @@
 
 ## Install
 
-#### Latest published version on npm (with Cordova CLI >= 5.0.0)
-
-```
-cordova plugin add cordova-plugin-ios-camera-permissions --save
-```
-
 #### Latest version from GitHub
 
 ```
-cordova plugin add https://github.com/Cordobo/cordova-plugin-ios-camera-permissions.git --save
+cordova plugin add https://github.com/EisenVault/cordova-plugin-ios-camera-permissions.git --save
 ```
 
 #### Customising the message prompts
@@ -21,7 +15,6 @@ cordova plugin add https://github.com/Cordobo/cordova-plugin-ios-camera-permissi
 On installation you can customise the prompts shown by setting the following variables on installation.
 
 - CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
-- MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
 - PHOTOLIBRARY_ADD_USAGE_DESCRIPTION for NSPhotoLibraryAddUsageDescription (write-access only, iOS 11 only)
 - PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescription (read/write access)
 
