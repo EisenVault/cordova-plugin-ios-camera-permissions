@@ -15,6 +15,7 @@ cordova plugin add https://github.com/EisenVault/cordova-plugin-ios-camera-permi
 On installation you can customise the prompts shown by setting the following variables on installation.
 
 - CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
+- MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
 - PHOTOLIBRARY_ADD_USAGE_DESCRIPTION for NSPhotoLibraryAddUsageDescription (write-access only, iOS 11 only)
 - PHOTOLIBRARY_USAGE_DESCRIPTION for NSPhotoLibraryUsageDescription (read/write access)
 
