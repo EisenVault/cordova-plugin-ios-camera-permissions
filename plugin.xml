@@ -14,6 +14,11 @@
                 <string>$CAMERA_USAGE_DESCRIPTION</string>
             </config-file>
 
+            <preference name="MICROPHONE_USAGE_DESCRIPTION" default="This allows you to record a video and upload it to your EisenVault account."/>
+            <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+                <string>$MICROPHONE_USAGE_DESCRIPTION</string>
+            </config-file>
+
             <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="This allows you to download a document from your EisenVault account and store it in your photo library."/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
                 <string>$PHOTOLIBRARY_ADD_USAGE_DESCRIPTION</string>
